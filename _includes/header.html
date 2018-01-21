@@ -7,12 +7,33 @@
                 <div class="row center">
                     <h5 class="header col s12 light" style="text-shadow: #000000 1px 1px">{{ site.description_user }}</h5>
 
-                   <!--links to parts-->
-
+                </div>
+                <!--links to parts-->
+                <div class="row center" style="position: absolute;bottom:5%; margin-left:10%; margin-right:15%;">
+                    {% if site.blog %}
+                    <a class="waves-effect waves-light btn grey darken-3 z-depth-3" href="{{site.blog}}"><i class="material-icons right">library_books</i>Blog</a>
+                    {% endif %}
+                    {% if site.linkedin %}
+                    <a class="waves-effect waves-light btn grey darken-3 z-depth-3" href="{{site.linkedin}}"><i class="material-icons right">assignment_ind</i>LinkedIn</a>
+                    {% endif %}
+                    {% if site.github %}
+                    <a class="waves-effect waves-light btn grey darken-3 z-depth-3" href="{{site.github}}"><i class="material-icons right">code</i>Github</a>
+                    {% endif %}
+                    {% if site.resume %}
+                    <a class="waves-effect waves-light btn grey darken-3 z-depth-3" href="{{site.resume}}"><i class="material-icons right">menu</i>Resume</a>
+                    {% endif %}
+                    {% if site.cv_online %}
+                    <a class="waves-effect waves-light btn grey darken-3 z-depth-3" href="{{site.cv_online}}"><i class="material-icons right">message</i>Online CV</a>
+                    {% endif %}
+                    {% if site.kaggle %}
+                    <a class="waves-effect waves-light btn grey darken-3 z-depth-3" href="{{site.kaggle}}"><i class="material-icons right">grade</i>Kaggle</a></p>
+                    {% endif %}
+                    {% if site.email %}
+                    <a class="waves-effect waves-light btn grey darken-3 z-depth-3" href="mailto:{{site.email}}"><i class="material-icons right">email</i>Email</a></p>
+                    {% endif %}
 
                 </div>
-                <p style="text-align:center;"><a class="waves-effect waves-light btn grey darken-3 z-depth-3" href="/blog/index.html"><i class="material-icons right">library_books</i>Blog</a></p>
-                <br><br>
+
 
             </div>
         </div>

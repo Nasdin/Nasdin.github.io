@@ -68,20 +68,21 @@ projects:
 # Skill icons from https://konpa.github.io/devicon/
 
 skills:
-  - name: amazonwebservices
+  - name: python
   - name: c
   - name: cplusplus
   - name: django
+  - name: go
   - name: docker
   - name: git
   - name: github
-  - name: go
   - name: mongodb
   - name: mysql
   - name: postgresql
-  - name: python
+  - name: amazonwebservices
   - name: pycharm
   - name: ubuntu
+  - name: heroku
 
 icon_size: 50 # font-size of icons in px
 colored: colored # Leave blank for black and white icons
