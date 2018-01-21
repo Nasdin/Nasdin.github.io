@@ -1,34 +1,60 @@
-title: Your awesome title
+# My information
 name: Your Name
 email: your-email@example.com
+description_user: Data Scientist, Entrepreneur
+
+# Social Media and profile
+github: https://github.com/nasdin
+# medium: https://medium.com
+linkedin:
+#kaggle:
+resume:
+cv_online: http://cv.nasrudinsalim.com
+
+# Site information
+title: Your awesome title
 description: Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-
-parallax_image_one: assets/images/startup3.jpg # These are the images used for the parallax background
-parallax_image_two: assets/images/startup3.jpg
-
-project_one: "First Project"
-project_one_description: Describe your project!
-project_one_url: https://github.com/jameshamann/jekyll-material-theme
-project_one_icon: location_on
-
-project_two: Second Project
-project_two_description: Describe your project!
-project_two_url: https://github.com/jameshamann/jekyll-material-theme
-project_two_icon: photo_camera
+baseurl: # if your site is located at /blog or /home, enter it here, otherwise leave it empty
+url: http://nasrudinsalim.com/ #the url of your site
 
 
-project_three: Third Project
-project_three_description: Describe your project!
-project_three_url: https://github.com/jameshamann/jekyll-material-theme
-project_three_icon: hotel
+#Parallax images
+parallax_image_one: assets/images/Nasrudin.jpg # These are the images used for the parallax background
+parallax_image_two: assets/images/Singapore.jpg
+
+#Projects
+projects:
+  - title: First Project
+    description: Describe your project!
+    url: https://github.com/nasdin
+    url_title: Github
+    picture:
+  - title: Second Project
+    description: Describe your project!
+    url: https://github.com/nasdin
+    url_title: Github
+    picture:
+  - title: Third Project
+    description: Describe your project!
+    url: https://github.com/nasdin
+    url_title: Github
+    picture:
+  - title: Fourth Project
+    description: Describe your project!
+    url: https://github.com/nasdin
+    url_title: Github
+    picture:
+
+#For interesting things to add into a carousel in the future
+#carousel:
+#  - button: Github
+#  - title:
+#    description:
+#    url:
+#    picture:
 
 
-project_four: Fourth Project
-project_four_description: Describe your project!
-project_four_url: https://github.com/jameshamann/jekyll-material-theme
-project_four_icon: restaurant
 
-portfolio_type: cards
 
 # Skill icons from https://konpa.github.io/devicon/
 
@@ -137,13 +163,11 @@ skills:
 icon_size: 50 # font-size of icons in px
 colored: colored # Leave blank for black and white icons
 
-project_button: Github
 
-github: https://github.com/jameshamann/jekyll-material-theme
-medium: https://medium.com
 
-baseurl: # if your site is located at /blog or /home, enter it here, otherwise leave it empty
-url: http://localhost:4000/ #the url of your site
+
+
+
 
 google_analytics_tracking_id: # This looks something like UA-000000000-0 Head over to https://analytics.google.com/ to setup.
 

@@ -3,7 +3,7 @@
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-material-theme"
   spec.version       = "0.3.0"
-  spec.authors       = ["James Hamann"]
+  spec.authors       = ["Nasrudin Salimn"]
   spec.email         = ["jameshamann0@gmail.com"]
 
   spec.summary       = "A Material Theme for Jekyll"
