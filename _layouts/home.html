@@ -55,13 +55,14 @@
     <div class="parallax"><img src="{{site.parallax_image_two}}" alt="Unsplashed background img 3"></div>
   </div>
 
-
+{% if site.show_blog %}
 <div class="container" style="padding:20px;">
   <div id="blog" class="section scrollspy">
   <h3 style="text-align:center;">Blog</h3>
   {% include blog-feed.html %}
+  </div>
 </div>
-</div>
+{% endif %}
 
 <div class="container" style="padding:20px;">
   <div id="contact" class="section scrollspy">

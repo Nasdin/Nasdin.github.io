@@ -1,22 +1,31 @@
 # My information
-name: Your Name
-email: your-email@example.com
+name: Nasrudin Salim
+email: Nas@NasrudinSalim.com
 description_user: Data Scientist, Entrepreneur
 
 # Social Media and profile
 github: https://github.com/nasdin
 # medium: https://medium.com
-linkedin:
+linkedin: https://www.linkedin.com/in/nasrudin-salim
 #kaggle:
-resume:
+resume: https://docs.google.com/document/d/1nJC5Fedi9EwjB4b-V-5wD1fnw_8eqdrFlHUqf9EOC0I/
 cv_online: http://cv.nasrudinsalim.com
+blog: http://blog.nasrudinsalim.com
 
 # Site information
-title: Your awesome title
-description: Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+title: Nasrudin Salim, Data Science Specialist & Expert
+description: I specialize in Artificial Intelligence, Machine Learning, financial markets and fintech. I'm a Data Scientist, entrepreneur, a consultant and have managed other startups.
 baseurl: # if your site is located at /blog or /home, enter it here, otherwise leave it empty
 url: http://nasrudinsalim.com/ #the url of your site
+google_analytics_tracking_id: UA-106147156-4
+cookies_banner: show # The value "show" will show the cookies banner, the value "none" will hide the banner.
+#show_blog:
 
+# SEO
+keywords_SEO: Nasrudin, Nasrudin Salim, Nasrudin Bin Salim, Nasrudin Salim Suden, Nasdin, data science, data scientist, data engineer, trader, forex, machine learning, AI, artificial intelligence, supervised learning, unsupervised learning, reinforcement learning, deep learning, sql, databases, Nasdin94
+
+
+cookie_accept_message: "Nasrudin: Thanks! <br> Nasrudin: Enjoy your stay!"
 
 #Parallax images
 parallax_image_one: assets/images/Nasrudin.jpg # These are the images used for the parallax background
@@ -60,120 +69,25 @@ projects:
 
 skills:
   - name: amazonwebservices
-  - name: android
-  - name: angularjs
-  - name: apache
-  - name: appcelerator
-  - name: apple
-  - name: atom
-  - name: babel
-  - name: backbonejs
-  - name: bitbucket
-  - name: bootstrap
-  - name: bower
   - name: c
-  - name: chrome
-  - name: codeigniter
-  - name: coffescript
-  - name: confluence
   - name: cplusplus
-  - name: csharp
-  - name: css3
-  - name: cucumber
-  - name: d3js
-  - name: debian
-  - name: devicon
   - name: django
   - name: docker
-  - name: doctrine
-  - name: dot-net
-  - name: drupal
-  - name: erlang
-  - name: facebook
-  - name: firefox
-  - name: foundation
-  - name: gatling
-  - name: gimp
   - name: git
   - name: github
-  - name: gitlab
   - name: go
-  - name: google
-  - name: gradle
-  - name: grunt
-  - name: gulp
-  - name: heroku
-  - name: html5
-  - name: ie10
-  - name: illustrator
-  - name: inkscape
-  - name: itellij
-  - name: java
-  - name: jasmine
-  - name: javascript
-  - name: laravel
-  - name: less
-  - name: linux
-  - name: meteor
-  - name: mocha
   - name: mongodb
-  - name: moodle
   - name: mysql
-  - name: nginx
-  - name: nodejs
-  - name: nodewebkit
-  - name: oracle
-  - name: photoshop
-  - name: php
-  - name: phpstorm
-  - name: protractor
   - name: postgresql
   - name: python
   - name: pycharm
-  - name: rails
-  - name: react
-  - name: redhat
-  - name: redis
-  - name: ruby
-  - name: rubymine
-  - name: safari
-  - name: sass
-  - name: sequelize
-  - name: slack
-  - name: sourcetree
-  - name: ssh
-  - name: swift
-  - name: symfony
-  - name: tomcat
-  - name: travis
-  - name: trello
-  - name: twitter
-  - name: typescript
   - name: ubuntu
-  - name: vim
-  - name: visualstudio
-  - name: vuejs
-  - name: webpack
-  - name: webstorm
-  - name: windows8
-  - name: wordpress
-  - name: yii
-  - name: zend
 
 icon_size: 50 # font-size of icons in px
 colored: colored # Leave blank for black and white icons
 
 
 
-
-
-
-
-google_analytics_tracking_id: # This looks something like UA-000000000-0 Head over to https://analytics.google.com/ to setup.
-
-cookies_banner: show # The value "show" will show the cookies banner, the value "none" will hide the banner.
-
-cookie_accept_message: Thanks!
 
 # Build settings
 markdown: kramdown
