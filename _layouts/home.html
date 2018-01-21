@@ -2,9 +2,9 @@
 
 {% include header.html %}
 
-<div id="cookies" style="display:{{site.cookies_banner}}">
+<div id="popup" style="display:{{site.popup_banner}}">
   <p style="text-align:left; padding-left:8px"><a value="hide/show" id="check" class="waves-effect waves-light green lighten-1 btn btn-floating pulse" onclick="Materialize.toast('{{site.cookie_accept_message}}', 2000)" ><i class="material-icons">check</i></a></p>
-  {% include cookies.html %}
+  {% include popup.html %}
 </div>
 
 {% if site.projects %}
@@ -66,7 +66,7 @@
 
 <div class="container" style="padding:20px;">
   <div id="contact" class="section scrollspy">
-  <h3 style="text-align:center;">Contact</h3>
+  <h3 style="text-align:center;">Contact Form</h3>
   {% include contact.html %}
 </div>
 </div>

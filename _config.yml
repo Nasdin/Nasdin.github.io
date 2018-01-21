@@ -18,7 +18,7 @@ description: I specialize in Artificial Intelligence, Machine Learning, financia
 baseurl: # if your site is located at /blog or /home, enter it here, otherwise leave it empty
 url: http://nasrudinsalim.com/ #the url of your site
 google_analytics_tracking_id: UA-106147156-4
-cookies_banner: show # The value "show" will show the cookies banner, the value "none" will hide the banner.
+popup_banner: show # The value "show" will show the popup banner, the value "none" will hide the banner.
 #show_blog:
 
 # SEO
