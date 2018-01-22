@@ -2,6 +2,7 @@
 name: Nasrudin Salim
 email: Nas@NasrudinSalim.com
 description_user: Data Scientist, Entrepreneur
+location: Singapore, Citizen
 
 # Social Media and profile
 github: https://github.com/nasdin
@@ -33,26 +34,62 @@ parallax_image_two: assets/images/Singapore.jpg
 
 #Projects
 projects:
-  - title: First Project
-    description: Describe your project!
-    url: https://github.com/nasdin
+  - title: Zeus - Deep Reinforcement Learning Financial Trading
+    description: Using Path Consistency learning algorithm, learns how to trade the financial market in a probabilistic manner. <br> Feature engineered with technical analysis rules, market volumes. Works with broker API. <br> Product created while I was in General Assembly and the top student chosen to present to Assoc Prof Minister Dr. Yaacob Ibrahim.
+    url: https://drive.google.com/open?id=1fvGqZqyWudLPkBNN0_RpCzRKYi88HT2mik2UWyrnYz4
+    url_title: Project Presentation, Commercialized system
+    picture: assets/images/GBPUSDWalkForwardM15.png
+
+  - title: Aynchronous Actor-Critic Networks with LSTM Reinforcement Learning
+    description: Built an efficient reinforcement learning algorithm using A3C outlined by Google's paper and used an LSTM model with it on Pytorch. <br> Tested the algorithm on Atari games, a standard benchmark and it yields one of the highest results.
+    url: https://github.com/Nasdin/ReinforcementLearning-AtariGame
     url_title: Github
-    picture:
-  - title: Second Project
-    description: Describe your project!
-    url: https://github.com/nasdin
+    picture: assets/images/atari.gif
+
+  - title: Property Renovatable & Intrinsic Price Valuation, Market Strategy | Machine learning
+    description: Building two property valuation models using machine learning models with model stacking <br> Compare and contrast price prediction between the two models <br> Market strategy to purchase a property with high intrinsic value, with higher valuation after renovation profits after costs.
+    url: https://github.com/Nasdin/Property-Arbitrage-Prediction-Strategy
     url_title: Github
-    picture:
-  - title: Third Project
-    description: Describe your project!
-    url: https://github.com/nasdin
+    picture: assets/images/Property-Valuation.png
+
+  - title: Mosquito hotspots and virus prediction, state of the art | Deep learning
+    description: Using complex stacked deep learning and machine learning models to predict the next mosquito virus hotspots.
+    url: https://github.com/Nasdin/Predicting-Mosquito-Hotspots
     url_title: Github
-    picture:
-  - title: Fourth Project
-    description: Describe your project!
-    url: https://github.com/nasdin
+    picture: assets/images/MosquitoHotspots.png
+
+  - title: WebScraping and Predicting Data Scientist Salaries | Machine learning
+    description: Webscrapped Indeed.com listings. <br> Formed a dataset, cleaned the data <br> Preprocess the data extract features such as keywords, locations and employers. <br> Used machine learning, AutoML to form a more superior machine learning prediction.
+    url: https://github.com/Nasdin/Predicting-Salaries-Indeed.com-AutoML
     url_title: Github
-    picture:
+    picture: assets/images/important_words.png
+
+  - title: Chatoyance - Financial Markets NLP, sentiment analysis and text summarizer
+    description: Built a state of the art NLP system for article analysis, market analysis, overall market sentiment and summarizer. <br>From Bloomberg and twitter feeds. <br> Commerciable product, source code not available
+    url: https://Chatoyance.org
+    url_title: Company Website
+    picture: assets/images/ChatoyanceIcon.png
+
+  - title: Real-time Automated Object Detection for video streams
+    description: State of the art object detection in real-time for burning cars versus cars using the YOLOV2 algorithm.
+    url: https://github.com/Nasdin/Burning-Cars-ImageRecognition-realtime
+    url_title: github
+    picture: assets/images/yolo.jpg
+
+  - title: Chatoyance Trading Group - Real time group P2P trading app
+    description: Share and copy trades between traders in a 2-way P2P fashion using Python, Django, SQL and the Metatrader 4 framework. <br> Trades made are automatically sent and updated on the website, server and sent to groups automatically opens/closes/updates their trade positions. <br> Provides performance and metrics per trader on the web app.
+    url: https://app.chatoyance.org
+    url_title: App Website
+    picture: assets/images/p2p-networks.jpg
+
+  - title: Visualization - Drone Strikes by the US
+    description: Connecting to a drone strike API, cleaning the data and then providing insights through visualization.
+    url: https://github.com/Nasdin/Drone-Strike-Visualization
+    url_title: Github
+    picture: assets/images/bombspots.png
+
+
+
 
 #For interesting things to add into a carousel in the future
 #carousel:
@@ -87,7 +124,11 @@ skills:
 icon_size: 50 # font-size of icons in px
 colored: colored # Leave blank for black and white icons
 
-
+##about section
+#about:
+#  - title: I dropped out Engineering from Asia's top university to teach myself Data Science
+#    description: Though I already had a diploma and job offers in software & IT. I attended professional full-time programs and beat other data scientists in the class and was the best student.
+##    picture:
 
 
 # Build settings
