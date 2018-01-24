@@ -46,6 +46,12 @@ projects:
     url_title: Github
     picture: assets/images/atari.gif
 
+  - title: Real-time Automated Object Detection for video streams + Autotrainer and Alerts
+    description: State of the art object detection in real-time using YOLOV2 algorithm. <br> Augmented with a process that alows easy training of the classifier as a plug & play solution <br> Provides alert if an item in an alert list is detected.
+    url: https://github.com/Nasdin/Burning-Cars-ImageRecognition-realtime
+    url_title: github
+    picture: assets/images/nas-demo.gif
+
   - title: Property Renovatable & Intrinsic Price Valuation, Market Strategy | Machine learning
     description: Building two property valuation models using machine learning models with model stacking <br> Compare and contrast price prediction between the two models <br> Market strategy to purchase a property with high intrinsic value, with higher valuation after renovation profits after costs.
     url: https://github.com/Nasdin/Property-Arbitrage-Prediction-Strategy
@@ -70,11 +76,7 @@ projects:
     url_title: Company Website
     picture: assets/images/ChatoyanceIcon.png
 
-  - title: Real-time Automated Object Detection for video streams
-    description: State of the art object detection in real-time for burning cars versus cars using the YOLOV2 algorithm.
-    url: https://github.com/Nasdin/Burning-Cars-ImageRecognition-realtime
-    url_title: github
-    picture: assets/images/yolo.jpg
+
 
   - title: Chatoyance Trading Group - Real time group P2P trading app
     description: Share and copy trades between traders in a 2-way P2P fashion using Python, Django, SQL and the Metatrader 4 framework. <br> Trades made are automatically sent and updated on the website, server and sent to groups automatically opens/closes/updates their trade positions. <br> Provides performance and metrics per trader on the web app.
