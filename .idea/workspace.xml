@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5506d960-0209-4339-ab6e-e3de44ba254b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change beforePath="$PROJECT_DIR$/assets/images/yolo.jpg" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +16,8 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+            <state relative-caret-position="163">
+              <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -279,7 +275,7 @@
       <workItem from="1516496016943" duration="209000" />
       <workItem from="1516496254446" duration="605000" />
       <workItem from="1516502732094" duration="28914000" />
-      <workItem from="1516780364540" duration="454000" />
+      <workItem from="1516780364540" duration="482000" />
     </task>
     <task id="LOCAL-00001" summary="New template">
       <created>1516496040351</created>
@@ -302,15 +298,21 @@
       <option name="project" value="LOCAL" />
       <updated>1516602908539</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fix the yolo video recognition">
+      <created>1516780834913</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1516780834913</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30805000" />
+    <option name="totallyTimeSpent" value="30833000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3497032" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -363,7 +365,8 @@
     <MESSAGE value="New template" />
     <MESSAGE value="Change from hard coded to dynamic" />
     <MESSAGE value="Add portfolio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add portfolio" />
+    <MESSAGE value="Fix the yolo video recognition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix the yolo video recognition" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -662,8 +665,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+        <state relative-caret-position="163">
+          <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
           <folding />
         </state>
       </provider>
