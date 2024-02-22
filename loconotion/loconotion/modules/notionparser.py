@@ -779,7 +779,7 @@ def process_table_views(self, soup):
     def load(self, url):
         self.driver.get(url)
         WebDriverWait(self.driver, 60).until(notion_page_loaded())
-
+    
     def run(self):
         start_time = time.time()
         self.processed_pages = {}
