@@ -49,7 +49,7 @@ jobs:
           
       - name: Run loconotion renderer
         run: |
-          docker-compose run loconotion personal_site_config.toml
+          docker-compose run loconotion personal_site/personal_site_config.toml
       - name: S3 Deploy
         run: |
           aws s3 sync ./loconotion/dist/Nasrudin_Salim s3://${{ secrets.BUCKET_NAME }}
