@@ -10,7 +10,7 @@ name = "Nasrudin_Salim"
 page = "https://nasrudinsalim.notion.site/Nasrudinsalim-com-5b75cdda6a344171a535b9802af36adf?pvs=4"
 
 # optionally apply notion's dark mode, remove the line below to use the default light mode
-theme = "light"
+theme = "dark"
 
 ## Global Site Settings ##
 # this [site] table defines override settings for the whole site
