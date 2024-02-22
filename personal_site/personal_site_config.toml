@@ -22,7 +22,10 @@ theme = "dark"
   # the following adds the tag <meta name="title" content="Loconotion Test Site"/>
   [[site.meta]]
   name = "title"
-  content = "Nasrudin Salim | Technology & Personal Growth"
+  content = "Nasrudin Salim | Impacting the future of humanity"
+  [[site.meta]]
+  name = "keywords"
+  content = "Nasrudin Salim, Singapore, entrepreneur, blockchain, artificial intelligence, AI, startups, technology innovator, financial independence, tech investments"
   [[site.meta]]
   name = "description"
   content = "Unlock your potential with Nasrudin Salim, a genius-level expert specializing in AI, MLOps, Blockchain, DeFi, Quantitative Trading, and strategic life advice. With an IQ in the genius range, Nasrudin offers bespoke consultations to navigate the complexities of technology, finance, and personal growth. Dive deep into innovation with tailored strategies for success. Schedule your consultation today to transform your challenges into opportunities"
