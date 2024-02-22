@@ -42,14 +42,14 @@ theme = "dark"
   #   body: non-heading text on the page
   #   code: text inside code blocks
   [site.fonts]
-  site = 'Nunito'
-  navbar = ''
-  title = 'Montserrat'
-  h1 = 'Montserrat'
-  h2 = 'Montserrat'
-  h3 = 'Montserrat'
-  body = ''
-  code = ''
+  # site = 'Nunito'
+  # navbar = ''
+  # title = 'Montserrat'
+  #h1 = 'Montserrat'
+  #h2 = 'Montserrat'
+  #h3 = 'Montserrat'
+  #body = ''
+  #code = ''
 
   ## Custom Element Injection ##
   # defined as an array of tables [[site.inject]], followed by 'head' or 'body' to set
