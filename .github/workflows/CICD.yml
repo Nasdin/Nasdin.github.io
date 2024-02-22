@@ -1,11 +1,14 @@
-name: Manual Build
+name: Continuous Build
 
 on:
-  workflow_dispatch:
-    inputs:
-      root_url: 
-        required: true
-        type: string
+  push:
+    branches:
+      - '**' # This will trigger the workflow on push to any branch
+  pull_request:
+    branches:
+      - '**' # This will trigger the workflow on pull requests to any branch
+  release:
+    types: [created] # This will trigger the workflow when a release is created
 
 jobs:
   build:
@@ -26,10 +29,10 @@ jobs:
         run: |
           cd loconotion
           pip3 install -r requirements.txt
-          python3 loconotion n
+          python3 loconotion nasrudinsalim.com
       - name: S3 Deploy
         run: |
-          aws s3 sync ./loconotion/dist/notion-personal-site s3://${{ secrets.BUCKET_NAME }}
+          aws s3 sync ./loconotion/dist/nasrudinsalim.com s3://${{ secrets.BUCKET_NAME }}
       - name: Purge cache
         uses: jakejarvis/cloudflare-purge-action@master
         env:
