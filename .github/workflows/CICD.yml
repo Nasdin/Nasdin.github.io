@@ -53,7 +53,7 @@ jobs:
           ls -a
           cd loconotion
           ls -a
-          aws s3 sync dist/Nasrudin_Salim s3://${{ secrets.BUCKET_NAME }}
+          aws s3 sync /tmp/Nasrudin_Salim s3://${{ secrets.BUCKET_NAME }}
       - name: Purge cache
         uses: jakejarvis/cloudflare-purge-action@master
         env:
