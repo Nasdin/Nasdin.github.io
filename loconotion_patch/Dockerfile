@@ -21,11 +21,11 @@ RUN wget -q --continue -P $CHROMEDRIVER_DIR "https://storage.googleapis.com/chro
     && rm $CHROMEDRIVER_DIR/*.zip
 
 # Put Chromedriver into the PATH
-ENV PATH /opt/chrome-linux64:$PATH
+ENV PATH $CHROMEDRIVER_DIR:$PATH
 
 # Assuming Google Chrome binary extracted contains all necessary files in a subdirectory, e.g., chrome-linux
 # Update PATH to include the Google Chrome binary
-ENV PATH /opt/chrome-linux:$PATH
+ENV PATH /opt/chrome-linux64:$PATH
 
 RUN mkdir -p /app/loconotion/
 WORKDIR /app/loconotion/
