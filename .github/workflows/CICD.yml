@@ -46,11 +46,13 @@ jobs:
       - name: Run loconotion renderer
         run: |
           cd loconotion
-          ls -a
           docker-compose run loconotion personal_site/personal_site_config.toml
+          ls -a
       - name: S3 Deploy
         run: |
+          ls -a
           cd loconotion
+          ls -a
           aws s3 sync dist/Nasrudin_Salim s3://${{ secrets.BUCKET_NAME }}
       - name: Purge cache
         uses: jakejarvis/cloudflare-purge-action@master
