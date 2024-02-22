@@ -43,6 +43,7 @@ jobs:
 
       - name: Build loconotion container
         run: |
+          cp loconotion_patch/Dockerfile loconotion/docker/Dockerfile
           cd loconotion
           docker-compose build loconotion
           
