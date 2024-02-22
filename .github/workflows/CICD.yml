@@ -34,7 +34,6 @@ jobs:
         run: |
           cd loconotion
           pip3 install -r requirements.txt
-          CP 
           python3 loconotion personal_site_config.toml
       - name: S3 Deploy
         run: |
