@@ -50,7 +50,8 @@ jobs:
           docker-compose run loconotion personal_site/personal_site_config.toml
       - name: S3 Deploy
         run: |
-          aws s3 sync ./loconotion/dist/Nasrudin_Salim s3://${{ secrets.BUCKET_NAME }}
+          cd loconotion
+          aws s3 sync dist/Nasrudin_Salim s3://${{ secrets.BUCKET_NAME }}
       - name: Purge cache
         uses: jakejarvis/cloudflare-purge-action@master
         env:
