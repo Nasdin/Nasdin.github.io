@@ -26,7 +26,7 @@ jobs:
         run: |
           cd loconotion
           pip3 install -r requirements.txt
-          python3 loconotion notion-personal-site
+          python3 loconotion n
       - name: S3 Deploy
         run: |
           aws s3 sync ./loconotion/dist/notion-personal-site s3://${{ secrets.BUCKET_NAME }}
