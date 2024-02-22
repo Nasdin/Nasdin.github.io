@@ -7,7 +7,7 @@ name = "Nasrudin_Salim"
 
 # the notion.so page to being parsing from. This page will become the index.html
 # of the generated site, and loconotion will parse all sub-pages present on the page
-page = "https://nasrudinsalim.notion.site/Nasrudinsalim-com-5b75cdda6a344171a535b9802af36adf"
+page = "https://nasrudinsalim.notion.site/Nasrudinsalim-com-5b75cdda6a344171a535b9802af36adf?pvs=4"
 
 # optionally apply notion's dark mode, remove the line below to use the default light mode
 theme = "light"
