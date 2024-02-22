@@ -27,9 +27,11 @@ jobs:
         with:
           repository: leoncvlt/loconotion
           path: loconotion
+      - name: Copy Config File
+        run: cp personal_site/personal_site_config.toml loconotion/personal_site_config.toml
+        shell: bash
       - name: Build
         run: |
-          cp personal_site/personal_site_config.toml loconotion/personal_site_config.toml
           cd loconotion
           pip3 install -r requirements.txt
           CP 
