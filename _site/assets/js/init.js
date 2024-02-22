@@ -1,1 +1,0 @@
-!function(l){l(function(){l(".button-collapse").sideNav(),l(".parallax").parallax(),l(".collapsible").collapsible(),l(".carousel.carousel-slider").carousel({fullWidth:!0}),l(".materialboxed").materialbox(),l(".scrollspy").scrollSpy(),l(".tap-target").tapTarget("open"),jQuery("#popup").on("click",function(){jQuery("#popup").toggle("hide")})})}(jQuery);
