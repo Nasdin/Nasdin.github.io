@@ -572,6 +572,7 @@ class Parser:
                     # If there is no 'style' attribute, you can choose to set one or do nothing
                     # For example, to set a new 'style' attribute, uncomment the following line:
                     # row_target_span["style"] = "cursor: pointer;"
+                    pass
                     
                 row_link_wrapper = soup.new_tag(
                     "a",
