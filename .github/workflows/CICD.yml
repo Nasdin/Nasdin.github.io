@@ -38,23 +38,17 @@ jobs:
           docker-compose --version
 
       - name: Build loconotion container
-        env:
-          LOCONOTION_LOCAL_DIST: ${{ github.workspace }}/loconotion
         run: |
           cp loconotion_patch/Dockerfile loconotion/docker/Dockerfile
           cd loconotion
           docker-compose build loconotion
           
       - name: Run loconotion renderer
-        env:
-          LOCONOTION_LOCAL_DIST: ${{ github.workspace }}/loconotion
         run: |
           docker-compose run loconotion personal_site/personal_site_config.toml
-          ls -a
       - name: S3 Deploy
         run: |
-          cd loconotion
-          aws s3 sync dist/Nasrudin_Salim s3://${{ secrets.BUCKET_NAME }}
+          aws s3 sync /tmp/Nasrudin_Salim s3://${{ secrets.BUCKET_NAME }}
       - name: Purge cache
         uses: jakejarvis/cloudflare-purge-action@master
         env:
