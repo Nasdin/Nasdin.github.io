@@ -27,12 +27,8 @@ jobs:
           aws-region: us-east-1
       - name: Checkout code
         uses: actions/checkout@v3 # This will checkout the repository containing the workflow
-      - uses: actions/checkout@v3
-        with:
-          repository: leoncvlt/loconotion
-          path: loconotion
       - name: Copy Config File
-        run: cp personal_site/personal_site_config.toml loconotion/personal_site_config.toml
+        run: cp personal_site loconotion/personal_site
         shell: bash
 
       - name: Set up Docker Compose
@@ -51,7 +47,7 @@ jobs:
         run: |
           cd loconotion
           ls -a
-          docker-compose run loconotion personal_site_config.toml
+          docker-compose run loconotion personal_site/personal_site_config.toml
       - name: S3 Deploy
         run: |
           aws s3 sync ./loconotion/dist/Nasrudin_Salim s3://${{ secrets.BUCKET_NAME }}

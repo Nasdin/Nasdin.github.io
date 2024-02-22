@@ -3,3 +3,6 @@
 .sass-cache
 Gemfile.lock
 _site
+__pycache__/
+loconotion/__pycache__/
+loconotion/modules/__pycache__/
