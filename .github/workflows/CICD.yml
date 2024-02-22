@@ -12,8 +12,12 @@ on:
 
 jobs:
   build:
-    name: Build Website
+    name: Build Website with Docker
     runs-on: ubuntu-latest
+    services:
+      docker:
+        image: docker:24.0.9
+        options: --privileged
     steps:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
@@ -30,11 +34,21 @@ jobs:
       - name: Copy Config File
         run: cp personal_site/personal_site_config.toml loconotion/personal_site_config.toml
         shell: bash
-      - name: Build
+
+      - name: Set up Docker Compose
+        run: |
+          sudo curl -L "https://github.com/docker/compose/releases/download/v2.24.6/docker-compose-linux-aarch64" -o /usr/local/bin/docker-compose
+          sudo chmod +x /usr/local/bin/docker-compose
+          docker-compose --version
+
+      - name: Build loconotion container
         run: |
           cd loconotion
-          pip3 install -r requirements.txt
-          python3 loconotion personal_site_config.toml
+          docker-compose build loconotion
+          
+      - name: Run loconotion renderer
+        run: |
+          docker-compose run loconotion personal_site_config.toml
       - name: S3 Deploy
         run: |
           aws s3 sync ./loconotion/dist/Nasrudin_Salim s3://${{ secrets.BUCKET_NAME }}
