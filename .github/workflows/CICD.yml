@@ -45,6 +45,7 @@ jobs:
           
       - name: Run loconotion renderer
         run: |
+          cd loconotion
           docker-compose run loconotion personal_site/personal_site_config.toml
       - name: S3 Deploy
         run: |
