@@ -32,7 +32,7 @@ jobs:
           python3 loconotion personal_site/personal_site_config.toml
       - name: S3 Deploy
         run: |
-          aws s3 sync ./loconotion/dist/nasrudinsalim.com s3://${{ secrets.BUCKET_NAME }}
+          aws s3 sync ./loconotion/dist/https://www.notion.so/nasrudinsalim/Nasrudinsalim-com-5b75cdda6a344171a535b9802af36adf s3://${{ secrets.BUCKET_NAME }}
       - name: Purge cache
         uses: jakejarvis/cloudflare-purge-action@master
         env:
