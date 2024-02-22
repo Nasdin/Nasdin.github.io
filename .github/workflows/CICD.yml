@@ -28,7 +28,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3 # This will checkout the repository containing the workflow
       - name: Copy Config File
-        run: cp personal_site loconotion/personal_site
+        run: cp -r personal_site loconotion/personal_site
         shell: bash
 
       - name: Set up Docker Compose
