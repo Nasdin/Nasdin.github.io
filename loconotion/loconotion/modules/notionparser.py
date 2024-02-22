@@ -556,31 +556,31 @@ class Parser:
                     title_toggle_blocks.append(block)
         return title_toggle_blocks 
 
-def process_table_views(self, soup):
-    # if there are any table views in the page, add links to the title rows
-    # the link to the row item is equal to its data-block-id without dashes
-    for table_view in soup.findAll("div", {"class": "notion-table-view"}):
-        for table_row in table_view.findAll("div", {"class": "notion-collection-item"}):
-            table_row_block_id = table_row["data-block-id"]
-            table_row_href = "/" + table_row_block_id.replace("-", "")
-            row_target_span = table_row.find("span")
-            
-            # Check if the 'style' attribute exists and then modify it
-            if row_target_span.has_attr("style"):
-                row_target_span["style"] = row_target_span["style"].replace("pointer-events: none;", "")
-            else:
-                # If there is no 'style' attribute, you can choose to set one or do nothing
-                # For example, to set a new 'style' attribute, uncomment the following line:
-                row_target_span["style"] = "cursor: pointer;"
+    def process_table_views(self, soup):
+        # if there are any table views in the page, add links to the title rows
+        # the link to the row item is equal to its data-block-id without dashes
+        for table_view in soup.findAll("div", {"class": "notion-table-view"}):
+            for table_row in table_view.findAll("div", {"class": "notion-collection-item"}):
+                table_row_block_id = table_row["data-block-id"]
+                table_row_href = "/" + table_row_block_id.replace("-", "")
+                row_target_span = table_row.find("span")
                 
-            row_link_wrapper = soup.new_tag(
-                "a",
-                attrs={
-                    "href": table_row_href,
-                    "style": "cursor: pointer; color: inherit; text-decoration: none; fill: inherit;",
-                },
-            )
-            row_target_span.wrap(row_link_wrapper)
+                # Check if the 'style' attribute exists and then modify it
+                if row_target_span.has_attr("style"):
+                    row_target_span["style"] = row_target_span["style"].replace("pointer-events: none;", "")
+                else:
+                    # If there is no 'style' attribute, you can choose to set one or do nothing
+                    # For example, to set a new 'style' attribute, uncomment the following line:
+                    row_target_span["style"] = "cursor: pointer;"
+                    
+                row_link_wrapper = soup.new_tag(
+                    "a",
+                    attrs={
+                        "href": table_row_href,
+                        "style": "cursor: pointer; color: inherit; text-decoration: none; fill: inherit;",
+                    },
+                )
+                row_target_span.wrap(row_link_wrapper)
 
 
     def embed_custom_fonts(self, url, soup):
