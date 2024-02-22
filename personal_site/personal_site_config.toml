@@ -114,3 +114,9 @@ theme = "light"
   [pages.a28dba2e7a67448da52f2cd2c641407b]
   #  slug = "random-board"
   #  no-links = true
+
+# Sitemap configuration
+# Remove if you don't want to generate sitemap.xml
+protocol = "https"
+domain = "nasrudinsalim.com"
+remove_html_extension = true
