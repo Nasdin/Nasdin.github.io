@@ -85,11 +85,11 @@ theme = "dark"
 [pages]
   # the following settings will only apply to this page:
   #   https://www.notion.so/d2fa06f244e64f66880bb0491f58223d
-  # [pages.d2fa06f244e64f66880bb0491f58223d]
+   [pages.High-IQ-Societies-b17d50fa5592484897d781a470cbf3dd]
     ## custom slugs ##
     # inside page settings, you can change the url for that page with the 'slug' key
     # e.g. page "/d2fa06f244e64f66880bb0491f58223d" will now map to "/games-list"
-   # slug = "games-list"
+    slug = "high-iq-societies"
 
     # change the description meta tag for this page only
    # [[pages.d2fa06f244e64f66880bb0491f58223d.meta]]
