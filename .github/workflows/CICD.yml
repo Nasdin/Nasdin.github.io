@@ -29,7 +29,7 @@ jobs:
         run: |
           cd loconotion
           pip3 install -r requirements.txt
-          python3 loconotion nasrudinsalim.com
+          python3 loconotion personal_site/personal_site_config.toml
       - name: S3 Deploy
         run: |
           aws s3 sync ./loconotion/dist/nasrudinsalim.com s3://${{ secrets.BUCKET_NAME }}
