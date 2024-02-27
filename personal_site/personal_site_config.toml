@@ -11,8 +11,11 @@ page = "https://nasrudinsalim.notion.site/Nasrudin-Salim-5b75cdda6a344171a535b98
 
 # optionally apply notion's dark mode, remove the line below to use the default light mode
 theme = "light"
-protocol = "https"
+# Sitemap configuration
+# Remove if you don't want to generate sitemap.xml
+
 domain = "nasrudinsalim.com"
+protocol = "https"
 remove_html_extension = true
 
 ## Global Site Settings ##
@@ -77,6 +80,9 @@ remove_html_extension = true
   # type="text/javascript"
   # src="/example/custom-script.js"
 
+  [[site.inject.head.a]]
+  href="personal_site/robots.txt"
+
   # the following injects this script in the <head>:
   #   <script>console.log("Hello, world!")</script>
   # [[site.inject.body.script]]
@@ -120,6 +126,5 @@ remove_html_extension = true
   #  slug = "random-board"
   #  no-links = true
 
-# Sitemap configuration
-# Remove if you don't want to generate sitemap.xml
+
 
