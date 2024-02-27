@@ -70,7 +70,7 @@ remove_html_extension = true
    rel="icon"
    sizes="16x16"
    type="image/png"
-   href="personal_site/nasicon.png"
+   href="nasicon.png"
 
   # the following injects this tag in the in the <body>:
   #   <script src="custom-script.js" type="text/javascript"></script>
@@ -81,7 +81,7 @@ remove_html_extension = true
   # src="/example/custom-script.js"
 
   [[site.inject.head.a]]
-  href="personal_site/robots.txt"
+  href="robots.txt"
 
   # the following injects this script in the <head>:
   #   <script>console.log("Hello, world!")</script>
