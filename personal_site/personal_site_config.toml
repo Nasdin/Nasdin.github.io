@@ -11,6 +11,12 @@ page = "https://nasrudinsalim.notion.site/Nasrudin-Salim-5b75cdda6a344171a535b98
 
 # optionally apply notion's dark mode, remove the line below to use the default light mode
 theme = "light"
+# Sitemap configuration
+# Remove if you don't want to generate sitemap.xml
+
+domain = "nasrudinsalim.com"
+protocol = "https"
+remove_html_extension = true
 
 ## Global Site Settings ##
 # this [site] table defines override settings for the whole site
@@ -74,14 +80,14 @@ theme = "light"
   # type="text/javascript"
   # src="/example/custom-script.js"
 
+  [[site.inject.head.a]]
+  href="personal_site/robots.txt"
+
   # the following injects this script in the <head>:
   #   <script>console.log("Hello, world!")</script>
-  [[site.inject.body.script]]
-  inner_html="""
-  </script>
-            <a href="https://taskade.com?via=ko8f7" target="_blank" style="outline:none;border:none;"><img src="https://d2gdx5nv84sdx2.cloudfront.net/uploads/ktbifmo1/marketing_asset/banner/12354/500_x_507.png" alt="taskade" border="0"/></a>
-        <script>
-   """
+  # [[site.inject.body.script]]
+  # inner_html="""
+  #  """
 
 ## Individual Page Settings ##
 # the [pages] table defines override settings for individual pages, by defining
@@ -120,8 +126,5 @@ theme = "light"
   #  slug = "random-board"
   #  no-links = true
 
-# Sitemap configuration
-# Remove if you don't want to generate sitemap.xml
-protocol = "https"
-domain = "nasrudinsalim.com"
-remove_html_extension = true
+
+
