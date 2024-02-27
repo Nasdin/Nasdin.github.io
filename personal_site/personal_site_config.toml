@@ -45,13 +45,13 @@ theme = "light"
   #   body: non-heading text on the page
   #   code: text inside code blocks
   [site.fonts]
-   site = 'Stoked'
-   navbar = 'Komoda'
+   site = 'Intro'
+   navbar = 'Intro'
    title = 'Intro'
   h1 = 'Canter'
   h2 = 'Canter'
   h3 = 'Canter'
-  body = 'Coves'
+  body = 'Komoda'
   code = 'Azonix'
 
   ## Custom Element Injection ##
