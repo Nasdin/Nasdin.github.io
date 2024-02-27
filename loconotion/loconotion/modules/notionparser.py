@@ -51,6 +51,8 @@ class Parser:
 
         # set the output folder based on the site name
         self.dist_folder = Path(config.get("output", Path("dist") / site_name))
+        log.info(os.getcwd())
+        lig.info(os.listdir('.'))
         log.info(f"Setting output path to '{self.dist_folder}'")
 
         # check if the argument to clean the dist folder was passed
