@@ -32,6 +32,7 @@ ENV PATH /opt/chrome-linux64:$PATH
 RUN mkdir -p /app/loconotion/
 WORKDIR /app/loconotion/
 COPY requirements.txt .
+COPY personal_site ./personal_site
 RUN pip install -r requirements.txt
 
 COPY . .
