@@ -28,7 +28,7 @@ theme = "light"
   content = "Nasrudin Salim, Singapore, entrepreneur, blockchain, artificial intelligence, AI, startups, technology innovator, financial independence, tech investments"
   [[site.meta]]
   name = "description"
-  content = "Unlock your potential with Nasrudin Salim, a genius-level expert specializing in AI, MLOps, Blockchain, DeFi, Quantitative Trading, and strategic life advice. With an IQ in the genius range, Nasrudin offers bespoke consultations to navigate the complexities of technology, finance, and personal growth. Dive deep into innovation with tailored strategies for success. Schedule your consultation today to transform your challenges into opportunities"
+  content = "Unlock your potential with Nasrudin Salim, an expert specializing in AI, Blockchain, DeFi, Quantitative Trading, and strategic life advice. With an IQ in the genius range, Nasrudin offers bespoke consultations to navigate the complexities. Schedule your consultation today to transform your challenges into opportunities"
 
   ## Custom Fonts ##
   # you can specify the name of a google font to use on the site - use the font embed name
