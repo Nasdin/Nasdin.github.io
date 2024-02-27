@@ -11,6 +11,9 @@ page = "https://nasrudinsalim.notion.site/Nasrudin-Salim-5b75cdda6a344171a535b98
 
 # optionally apply notion's dark mode, remove the line below to use the default light mode
 theme = "light"
+protocol = "https"
+domain = "nasrudinsalim.com"
+remove_html_extension = true
 
 ## Global Site Settings ##
 # this [site] table defines override settings for the whole site
@@ -119,6 +122,4 @@ theme = "light"
 
 # Sitemap configuration
 # Remove if you don't want to generate sitemap.xml
-protocol = "https"
-domain = "nasrudinsalim.com"
-remove_html_extension = true
+
